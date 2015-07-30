@@ -5,6 +5,6 @@
  * http://www.apache.org/licenses/LICENSE-2.0.html  
  */
 
-var ClamgateBot = require('./clamgate-bot.min.js');
+var ClamgateBot = require('./clamgate-bot.js');
 
-new ClamgateBot();
+//todo cli new ClamgateBot();
