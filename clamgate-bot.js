@@ -57,14 +57,14 @@
         
         this.bot.on('chat', function(msg) {
             if(msg.txt === '!clamgate') {
-                that.bot.chat('/me create a bitcoin deposit address via https://clamgate.com; no spamming !clamgate please!');
+                that.bot.chat('/me want to deposit bitcoins here? use https://clamgate.com; no spamming !clamgate please!');
                 that.bot.chat('/me ' + that._help());
             }
         });
     };
     
     ClamgateBot.prototype._help = function() {
-        return '/msg ' + this.bot.uid + ' [YOUR CLAM ADDRESS HERE]';
+        return '/msg ' + this.bot.uid + ' [YOUR CLAM DEPOSIT ADDRESS HERE]';
     };
     
     ClamgateBot.prototype.help = function(to) {
