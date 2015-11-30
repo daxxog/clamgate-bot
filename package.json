@@ -40,7 +40,7 @@
     "clamgate-bot": "bin/clamgate-bot"
   },
   "dependencies": {
-    "just-bot": "0.0.8",
+    "just-bot": "0.0.9",
     "request": "^2.60.0",
     "string": "^3.3.0"
   }
